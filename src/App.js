@@ -20,7 +20,7 @@ function App() {
      
      <Header/>
      <Routes >
-          <Route  path="/todo" element={<Todo />} />
+          <Route index  path="/" element={<Todo />} />
       
         
           {/* <Route path="/preferences">
